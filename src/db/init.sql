@@ -1,4 +1,4 @@
-CREATE TABLE users (
+CREATE TABLE Users (
     id SERIAL PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
@@ -7,7 +7,7 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-INSERT INTO users (first_name, last_name, email, password)
+INSERT INTO Users (first_name, last_name, email, password)
 VALUES
     ('Thorsten', 'Test', 'admin@schul-cloud.org', 'securepassword123'),
     ('Marla', 'Mathe', 'schueler@schul-cloud.org', 'anotherpassword456'),
