@@ -14,7 +14,7 @@ services:
 
   keycloak:
     image: ghcr.io/dbildungsplattform/dbildungs-iam-keycloak:spsh-1210
-    container_name: keycloak
+    container_name: dbildungs-iam-client-keycloak
     environment:
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin
