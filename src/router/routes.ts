@@ -18,7 +18,7 @@ const routes: readonly RouteRecordRaw[] = [
     component: () => import('../views/admin/PersonManagementView.vue'),
     meta: {
       layout: 'AdminLayout',
-      requiresAuth: true,
+      requiresAuth: false,
       requiredStepUpLevel: StepUpLevel.GOLD,
       requiresPermission: 'personenverwaltung',
     },
@@ -29,7 +29,7 @@ const routes: readonly RouteRecordRaw[] = [
     component: () => import('../views/admin/PersonDetailsView.vue'),
     meta: {
       layout: 'AdminLayout',
-      requiresAuth: true,
+      requiresAuth: false,
       requiredStepUpLevel: StepUpLevel.GOLD,
       requiresPermission: 'personenverwaltung',
     },
@@ -40,7 +40,7 @@ const routes: readonly RouteRecordRaw[] = [
     component: () => import('../views/admin/PersonCreationView.vue'),
     meta: {
       layout: 'AdminLayout',
-      requiresAuth: true,
+      requiresAuth: false,
       requiredStepUpLevel: StepUpLevel.GOLD,
       requiresPermission: 'personenverwaltung',
     },
@@ -50,7 +50,7 @@ const routes: readonly RouteRecordRaw[] = [
     name: 'klasse-management',
     component: () => import('../views/admin/KlassenManagementView.vue'),
     meta: {
-      requiresAuth: true,
+      requiresAuth: false,
       layout: 'AdminLayout',
       requiredStepUpLevel: StepUpLevel.GOLD,
       requiresPermission: 'klassenverwaltung',
@@ -62,7 +62,7 @@ const routes: readonly RouteRecordRaw[] = [
     component: () => import('../views/admin/KlasseCreationView.vue'),
     meta: {
       layout: 'AdminLayout',
-      requiresAuth: true,
+      requiresAuth: false,
       requiredStepUpLevel: StepUpLevel.GOLD,
       requiresPermission: 'klassenverwaltung',
     },
@@ -73,7 +73,7 @@ const routes: readonly RouteRecordRaw[] = [
     component: () => import('../views/admin/KlasseDetailsView.vue'),
     meta: {
       layout: 'AdminLayout',
-      requiresAuth: true,
+      requiresAuth: false,
       requiredStepUpLevel: StepUpLevel.GOLD,
       requiresPermission: 'klassenverwaltung',
     },
@@ -84,7 +84,7 @@ const routes: readonly RouteRecordRaw[] = [
     component: () => import('../views/admin/rollen/RolleCreationView.vue'),
     meta: {
       layout: 'AdminLayout',
-      requiresAuth: true,
+      requiresAuth: false,
       requiredStepUpLevel: StepUpLevel.GOLD,
       requiresPermission: 'rollenverwaltung',
     },
@@ -95,7 +95,7 @@ const routes: readonly RouteRecordRaw[] = [
     component: () => import('../views/admin/rollen/RolleDetailsView.vue'),
     meta: {
       layout: 'AdminLayout',
-      requiresAuth: true,
+      requiresAuth: false,
       requiredStepUpLevel: StepUpLevel.GOLD,
       requiresPermission: 'rollenverwaltung',
     },
@@ -106,7 +106,7 @@ const routes: readonly RouteRecordRaw[] = [
     component: () => import('../views/admin/rollen/RolleManagementView.vue'),
     meta: {
       layout: 'AdminLayout',
-      requiresAuth: true,
+      requiresAuth: false,
       requiredStepUpLevel: StepUpLevel.GOLD,
       requiresPermission: 'rollenverwaltung',
     },
@@ -117,7 +117,7 @@ const routes: readonly RouteRecordRaw[] = [
     component: () => import('../views/admin/SchuleCreationView.vue'),
     meta: {
       layout: 'AdminLayout',
-      requiresAuth: true,
+      requiresAuth: false,
       requiredStepUpLevel: StepUpLevel.GOLD,
       requiresPermission: 'schulverwaltung',
     },
@@ -128,7 +128,7 @@ const routes: readonly RouteRecordRaw[] = [
     component: () => import('../views/admin/SchuleManagementView.vue'),
     meta: {
       layout: 'AdminLayout',
-      requiresAuth: true,
+      requiresAuth: false,
       requiredStepUpLevel: StepUpLevel.GOLD,
       requiresPermission: 'schulverwaltung',
     },
@@ -139,7 +139,7 @@ const routes: readonly RouteRecordRaw[] = [
     component: () => import('../views/StartView.vue'),
     meta: {
       layout: 'DefaultLayout',
-      requiresAuth: true,
+      requiresAuth: false,
       requiredStepUpLevel: StepUpLevel.SILVER,
     },
   },
@@ -154,7 +154,7 @@ const routes: readonly RouteRecordRaw[] = [
     component: () => import('../views/ProfileView.vue'),
     meta: {
       layout: 'DefaultLayout',
-      requiresAuth: true,
+      requiresAuth: false,
       requiredStepUpLevel: StepUpLevel.SILVER,
     },
   },
