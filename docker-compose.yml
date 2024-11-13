@@ -13,7 +13,7 @@ services:
       - "5432:5432"
 
   keycloak:
-    image: ghcr.io/dbildungsplattform/dbildungs-iam-keycloak/dev:latest
+    image: ghcr.io/dbildungsplattform/dbildungs-iam-keycloak:latest
     container_name: dbildungs-iam-client-keycloak
     environment:
       KEYCLOAK_ADMIN: admin
