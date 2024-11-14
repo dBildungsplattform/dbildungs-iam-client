@@ -23,8 +23,6 @@ services:
       DB_DATABASE: db
       DB_USER: admin
       DB_PASSWORD: admin
-      KC_HTTPS_CERTIFICATE_FILE: /opt/keycloak/conf/server.crt
-      KC_HTTPS_CERTIFICATE_KEY_FILE: /opt/keycloak/conf/server.key
     ports:
       - "8080:8080"
     depends_on:
